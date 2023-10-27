@@ -24,7 +24,7 @@ def get_avg(items):
     return sum(items) / len(items)
 
 #analyse sentences per participant or per group on a text file
-for file in ["chadata/psychosis/vrouwen/P025_pt.cha_filter.txt"]:
+for file in ["data/psychosis/vrouwen/P025_pt.cha_filter.txt"]:
 # for file in glob.glob("chadata/psychosis/vrouwen/*.cha_filter.txt"):
     all_sentence_stats = []
     stats_per_subject = {"File":file}
@@ -163,7 +163,7 @@ except IOError:
 # plt.scatter(node_graph, complex_subtrees3_graph, s=area, alpha=0.5, label="Subtrees with 3 children nodes")
 # plt.scatter(node_graph, complex_subtrees4_graph, s=area, alpha=0.5, label="Subtrees with 4 children nodes")
 # plt.hist(complex_subtrees4_graph / node_graph)
-# print("aaaaaaaaaaaaaaaaaaaaaaaazzzz",complex_subtrees4_graph / node_graph)
+# print("",complex_subtrees4_graph / node_graph)
 # # plt.legend()
 # plt.xlim([0, 0.14])
 # plt.ylim([0, 100])
