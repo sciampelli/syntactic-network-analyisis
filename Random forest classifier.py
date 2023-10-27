@@ -118,7 +118,7 @@ tprs = []
 aucs = []
 mean_fpr = np.linspace(0, 1, 100)
 
-cv = StratifiedKFold(n_splits = 19)
+cv = StratifiedKFold(n_splits = 20)
 fig, ax = plt.subplots()
 
 specificity = []
