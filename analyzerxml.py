@@ -7,7 +7,7 @@ import random
 import pprint
 from sentence_analyzer import SentenceAnalyzer
 
-MAX_SENTENCES_PER_INTERVIEW = 12
+MAX_SENTENCES_PER_INTERVIEW = 120
 OUTPUT_CSV_FILE = "output.csv"
 analyzer = SentenceAnalyzer()
 global_stats = []
