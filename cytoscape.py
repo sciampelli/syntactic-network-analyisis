@@ -10,7 +10,7 @@ class CytoscapeProcessor:
 
     def process_from_edge_list(self, edgelist):
         # we cant do a network analysis on less than 6 nodes
-        if len(edgelist) < 5:
+        if len(edgelist) < 6:
             return False
 
         csv_file = self.write_edge_to_csv(edgelist)
